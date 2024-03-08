@@ -1,0 +1,20 @@
+# Algorithme de résolution pour la logique propositionnelle
+
+## Description
+Ce projet implémente un algorithme de résolution pour vérifier la validité des formules en logique propositionnelle. 
+L'algorithme utilise la résolution par réfutation pour déterminer si une formule est valide ou non.
+
+## Fonctionnalités
+- Négation d'une expression logique
+- Conversion en forme normale conjonctive (CNF)
+- Recherche de clauses réductibles
+- Vérification de la validité d'une formule
+
+## Utilisation
+L'utilisateur peut entrer une formule logique en utilisant les opérateurs logiques suivants :
+- Et : `And`
+- Ou : `Or`
+- Négation : `Not`
+- Variables propositionnelles : `symbols('p', 'q', 'r')`
+
+L'algorithme affiche "F est valide" si la formule est valide, et "F est invalide" sinon.
