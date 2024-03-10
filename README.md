@@ -22,6 +22,5 @@ L'algorithme affiche "F est valide" si la formule est valide, et "F est invalide
 Exemples d'utilisation
 
 F = Or(p, Not(p))                                          valide
-F = And(Or(p, q), Or(Not(p), q), Or(p, Not(q)))            valide
-F = And(And(p, q), And(Not(p), q))                         invalide
+
 F = And(And(p, q), And(Not(p), Not(q)))                    invalide
